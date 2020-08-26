@@ -1,0 +1,145 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+}
+.header{
+	background-image: url(../img/banner.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+}
+.menu-bar{
+	text-align: center;
+	background-color: rgba(0,0,0,0.5);
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.menu-bar ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.menu-bar ul li a{
+	color: white;
+	font-size: 18px;
+	transition: 0.5s;
+}
+.menu-bar ul li a:hover{
+	color: black;
+	/*transform: scale(2);*/
+	transition: 0.5s;
+}
+
+.social-icon{
+	text-align: center;
+	margin: 20px 0;
+	position: fixed;
+	top: 500px;
+	left: 500px;
+	z-index: 9999;
+}
+.social-icon ul li{
+	display: inline-block;
+	margin: 0 20px;
+}
+.social-icon ul li a i{
+	height: 60px;
+	width: 60px;
+	background-color: red;
+	color: white;
+	font-size: 22px;
+	text-align: center;
+	line-height: 60px;
+	border-radius: 50%;
+	transition: 0.5s ease-in-out;
+	
+}
+.social-icon ul li a i:hover{
+	transform: scale(0.6);
+	transition: 0.5s ease-in-out;
+}
+
+
+.box{
+	height: 300px;
+	width: 500px;
+	background: #D1D0D3;
+	margin: 100px auto;
+	position: relative;
+	border-radius: 10px;
+}
+.circle{
+	height: 60px;
+	width: 60px;
+	background-color: tomato;
+	border-radius: 100%;
+	position: absolute;
+	top: -30px;
+	left: 45%;
+	text-align: center;
+	line-height: 60px;
+	color: white;
+}
+.cmnt-box{
+	height: 300px;
+	width: 500px;
+	background: #D1D0D3;
+	margin: 100px auto;
+	border-radius: 10px;
+	position: relative;
+}
+.cmnt-arrow{
+	height: 40px;
+	width: 40px;
+	background-color: #D1D0D3;
+	position: absolute;
+	bottom: -20px;
+	left: 100px;
+	transform: rotate(45deg);
+}
+
+.contact{
+	width: 60%;
+	margin: 100px auto;
+	padding: 100px 0;
+	border-radius: 10px; 
+}
+.form-body{
+	background: rgba(0,0,0,0.9);
+	margin: 0 100px;
+	border-radius: 10px;
+	text-align: center;
+	padding: 50px 0;
+}
+form{
+	padding: 20px 200px; 
+}
+.form-body input{
+	display: block;
+	width: 100%;
+	padding: 15px 20px;
+	margin: 20px 0;
+	background: transparent;
+	border: 1px solid tomato;
+	border-radius: 5px;
+}
+.form-body input:focus{
+	outline: none;
+	border-color: white;
+}
+
+.form-body h1{
+	color: white;
+}
+.button{
+	background: tomato !important;
+	color: white;
+	width: auto !important;
+	padding: 15px 25px;
+}
